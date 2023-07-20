@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    margin: 44px 0px 10px 40px;
+    word-spacing: 20px;
+}
+
+.headert {
+    color: #17233D;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 20px;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+.Cadastro {
+    text-align: center;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 20px;
+    letter-spacing: 10px;
+    border-radius: 12px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFFFFF;
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+div {
+    display: inline-block;
+    width: 493px;
+    margin-left: 85px;
+}
+
+.poze {
+    margin: 15px 0 0 40px;
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+}
+
+
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 132.258%;
+    letter-spacing: 0.596px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    text-align: justify;
+}
+
+.learn {
+    font-size: 18px;
+    color: #6FBF44;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media  (max-width: 900px) {
+
+    header {
+        display: none;
+
+    }
+
+
+    div {
+        margin: 20px;
+        position: absolute;
+
+    }
+
+    h1 {
+        text-align: center;
+        width: 360px;
+        font-size: 45px;
+        margin: 80px 55px;
+
+    }
+
+    p {
+        margin: 50px 60px 322px;
+        font-size: 24px;
+        width: 350px;
+        text-align: center;
+    }
+
+    button {
+        position: absolute;
+        top: 520px;
+        left: 180px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+
+    .poze {
+        width: auto;
+        height: 320px;
+        position: absolute;
+        top: 650px;
+        left: 25px;
+    }
+
+
+}
